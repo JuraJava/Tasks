@@ -1,15 +1,160 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//Написать простой алгоритм сортировки (Bubble, Selection или Shuttle). Как его можно улучшить?
+//Пример алгоритма сортировки пузырьком (Bubble sort):
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите длину массива");
+        int k = sc.nextInt(); // вводим длину массива (количество элементов в массиве)
+        int[] array = new int[k];
+// вводим элементы массива
+        for (int i = 0; i < k; i++) {
+            array[i] = sc.nextInt();
+        }
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+//        bubbleSort(array);
+//        improvedBubbleSort(array);
+//        selectionSort(array);
+//        improvedSelectionSort(array);
+//        shuttleSort(array);
+        selectionSort(array);
+        for(int j = 0; j < k; j++){
+            System.out.print(array[j] + " ");
         }
     }
+
+    public static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+//    Здесь мы используем два вложенных цикла for, чтобы перебрать все элементы массива и сравнить их между собой.
+//    Если элементы стоят в неправильном порядке, то мы меняем их местами с помощью временной переменной temp.
+//    Данный алгоритм можно улучшить следующими способами:
+//    Добавить проверку, отсортирован ли уже массив.
+//    Если на какой-то итерации не происходит обмена, значит массив уже отсортирован, и можно завершить сортировку.
+//    Вместо двойного цикла использовать один цикл и флаг, который будет указывать, были ли за последний проход обмены.
+//    Если обменов не было, то сортировка завершена. Пример улучшенного алгоритма сортировки пузырьком:
+
+    public static void improvedBubbleSort(int[] arr) {
+        int n = arr.length;
+        boolean swapped = true;
+        for (int i = 0; i < n - 1 && swapped; i++) {
+            swapped = false;
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swapped = true;
+                }
+            }
+        }
+    }
+//    Здесь мы добавили переменную swapped, которая указывает, были ли за последний проход обмены.
+//    Если обменов не было, то переменная swapped остается равной false, цикл завершается, и сортировка заканчивается.
+//    Также мы упростили внешний цикл и избавились от проверки уже отсортированных элементов при помощи формулы n - i - 1.
+//    Алгоритм сортировки выбором (Selection sort) работает следующим образом:
+//    Находим минимальный элемент в массиве.
+//    Меняем его местами с первым элементом.
+//    Повторяем шаги 1 и 2 для оставшейся части массива, начиная со второго элемента и до конца.
+//    Вот пример реализации этого алгоритма на Java:
+
+    public static void selectionSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            int minIdx = i;
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIdx]) {
+                    minIdx = j;
+                }
+            }
+            int temp = arr[i];
+            arr[i] = arr[minIdx];
+            arr[minIdx] = temp;
+        }
+    }
+    //    Для улучшения этого алгоритма можно использовать следующие оптимизации:
+//    Добавить проверку, нужно ли менять элементы местами.
+//    Если элементы уже стоят в правильном порядке, то нет нужды менять их местами.
+//    Оптимизировать поиск минимального элемента.
+//    Вместо того, чтобы каждый раз проходить по всему неотсортированному массиву,
+//    можно сохранить индекс минимального элемента на предыдущих шагах сортировки
+//    и начинать следующий поиск от следующего элемента.
+//    Пример улучшенной реализации сортировки выбором:
+    public static void improvedSelectionSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            int minIdx = i;
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIdx]) {
+                    minIdx = j;
+                }
+            }
+            if (i != minIdx) {
+                int temp = arr[i];
+                arr[i] = arr[minIdx];
+                arr[minIdx] = temp;
+            }
+        }
+    }
+//    Здесь мы добавили проверку на равенство i и minIdx, чтобы не менять элементы местами, если они уже стоят в правильном порядке.
+//    Мы также сохраняем индекс минимального элемента на предыдущих шагах сортировки,
+//    чтобы начинать следующий поиск минимального элемента от следующего элемента.
+//    Aлгоритм сортировки шаттле (shuttle sort) работает следующим образом:
+//    Проходим по массиву с начала до конца, и при нахождении элемента, который меньше предыдущего элемента, меняем их местами.
+//    Затем проходим от конца массива к началу и при нахождении элемента, который больше предыдущего элемента, меняем их местами.
+//    Это повторяется до тех пор, пока массив не будет полностью отсортирован.
+//    Пример кода на Java:
+
+    public static void shuttleSort(int[] arr) {
+        boolean swapped = true;
+        int start = 0;
+        int end = arr.length - 1;
+
+        while (swapped) {
+            swapped = false;
+            // Первый проход по массиву
+            for (int i = start; i < end; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    int temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                    swapped = true;
+                }
+            }
+            // Если ничего не поменялось, то выходим из цикла
+            if (!swapped) {
+                break;
+            }
+            swapped = false;
+            // Второй проход по массиву
+            for (int i = end - 1; i >= start; i--) {
+                if (arr[i] > arr[i + 1]) {
+                    int temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                    swapped = true;
+                }
+            }
+            // Смещаем границы массива
+            start++;
+            end--;
+        }
+    }
+//    Одним из способов улучшения алгоритма является оптимизация его производительности.
+//    Например, можно использовать более эффективный алгоритм сортировки,
+//    такой как быстрая сортировка (quicksort) или сортировка слиянием (merge sort).
+//    Также можно оптимизировать алгоритм путем добавления дополнительных проверок на каждой итерации,
+//    чтобы избежать лишних перестановок, если массив уже отсортирован.
+//    Использование параллельного программирования может ускорить работу алгоритма на многопроцессорных системах.
 }
