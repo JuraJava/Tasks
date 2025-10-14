@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7e2e271-9046-450a-81a9-c3314de357b4" name="Changes" comment="Убрал добавленное изменение">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main2/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main3/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main3/TicketSorter.java" afterDir="false" />
+    <list default="true" id="a7e2e271-9046-450a-81a9-c3314de357b4" name="Changes" comment="Добавление новых задач">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main1/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main3/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main3/Main3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +95,7 @@
       <workItem from="1729778074536" duration="67000" />
       <workItem from="1730289178218" duration="15000" />
       <workItem from="1736857513382" duration="43000" />
-      <workItem from="1760431893865" duration="3910000" />
+      <workItem from="1760431893865" duration="6125000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление кода задачи взамен того кода который был изначально при создании проекта">
       <option name="closed" value="true" />
@@ -126,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728055373535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавление новых задач">
+      <option name="closed" value="true" />
+      <created>1760437307061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760437307061</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +139,7 @@
     <MESSAGE value="Добавление кода задачи взамен того кода который был изначально при создании проекта" />
     <MESSAGE value="Сделал ещё одно изменение" />
     <MESSAGE value="Убрал добавленное изменение" />
-    <option name="LAST_COMMIT_MESSAGE" value="Убрал добавленное изменение" />
+    <MESSAGE value="Добавление новых задач" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление новых задач" />
   </component>
 </project>

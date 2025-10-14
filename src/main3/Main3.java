@@ -39,8 +39,8 @@ public class Main3 {
         List<Main3> tickets = Arrays.asList(
                 new Main3("London", "Moscow"),
                 new Main3("NY", "London"),
-                new Main3("Moscow", "SPb")
-        );
+                new Main3("Moscow", "SPb"),
+                new Main3("SPb", "Ekb"));
 
         List<Main3> sortedTickets = sortTickets(tickets);
         System.out.println("Упорядоченный маршрут:");
