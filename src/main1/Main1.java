@@ -1,9 +1,9 @@
-//Написать простой алгоритм сортировки (Bubble, Selection или Shuttle). Как его можно улучшить?
+package main1;//Написать простой алгоритм сортировки (Bubble, Selection или Shuttle). Как его можно улучшить?
 //Пример алгоритма сортировки пузырьком (Bubble sort):
 
 import java.util.Scanner;
 
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите длину массива");

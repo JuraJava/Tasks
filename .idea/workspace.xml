@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7e2e271-9046-450a-81a9-c3314de357b4" name="Changes" comment="Добавление кода задачи взамен того кода который был изначально при создании проекта" />
+    <list default="true" id="a7e2e271-9046-450a-81a9-c3314de357b4" name="Changes" comment="Убрал добавленное изменение">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main2/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main3/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main3/TicketSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main1/Main1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -19,21 +34,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "YurDan1973"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YurDan1973&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/YurDan1973/test.git",
-    "accountId": "5f85202a-ea00-425b-bd45-83582029171e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YurDan1973/test.git&quot;,
+    &quot;accountId&quot;: &quot;5f85202a-ea00-425b-bd45-83582029171e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2myccZEWl8pra9UxUpD7CJV7Kjd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,7 +58,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.Main3.executor": "Run",
+    "Application.Ticket.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -52,7 +71,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/1/IdeaProjects/Tasks/src/Main.java",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +94,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728052336308</updated>
-      <workItem from="1728052337326" duration="1788000" />
+      <workItem from="1728052337326" duration="2087000" />
+      <workItem from="1728660471781" duration="14000" />
+      <workItem from="1729609234481" duration="27000" />
+      <workItem from="1729778074536" duration="67000" />
+      <workItem from="1730289178218" duration="15000" />
+      <workItem from="1736857513382" duration="43000" />
+      <workItem from="1760431893865" duration="3910000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление кода задачи взамен того кода который был изначально при создании проекта">
       <option name="closed" value="true" />
@@ -82,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728055130252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сделал ещё одно изменение">
+      <option name="closed" value="true" />
+      <created>1728055269480</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728055269480</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Убрал добавленное изменение">
+      <option name="closed" value="true" />
+      <created>1728055373535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728055373535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавление кода задачи взамен того кода который был изначально при создании проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление кода задачи взамен того кода который был изначально при создании проекта" />
+    <MESSAGE value="Сделал ещё одно изменение" />
+    <MESSAGE value="Убрал добавленное изменение" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал добавленное изменение" />
   </component>
 </project>
