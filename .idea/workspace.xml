@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7e2e271-9046-450a-81a9-c3314de357b4" name="Changes" comment="Добавление новых задач">
-      <change afterPath="$PROJECT_DIR$/src/main4/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JoinExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main3/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main3/Main3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +53,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.JoinExample.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.Main3.executor": "Run",
     "Application.Main4.executor": "Run",
+    "Application.Main5.executor": "Run",
     "Application.Ticket.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -75,7 +78,34 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main100">
+    <configuration name="JoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JoinExample" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main1.Main1" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main100" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main4.Main4" />
       <module name="Tasks" />
@@ -91,6 +121,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main100" />
+        <item itemvalue="Application.JoinExample" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main4" />
       </list>
     </recent_temporary>
@@ -119,7 +152,12 @@
       <workItem from="1736857513382" duration="43000" />
       <workItem from="1760431893865" duration="6253000" />
       <workItem from="1760441945103" duration="106000" />
-      <workItem from="1761129713964" duration="1953000" />
+      <workItem from="1761129713964" duration="3120000" />
+      <workItem from="1761229158779" duration="12000" />
+      <workItem from="1761307134251" duration="7000" />
+      <workItem from="1765544733387" duration="1136000" />
+      <workItem from="1766763169217" duration="1445000" />
+      <workItem from="1768317680725" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление кода задачи взамен того кода который был изначально при создании проекта">
       <option name="closed" value="true" />
@@ -161,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760441745997</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавление новых задач">
+      <option name="closed" value="true" />
+      <created>1761131722003</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761131722003</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
