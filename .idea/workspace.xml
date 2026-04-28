@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7e2e271-9046-450a-81a9-c3314de357b4" name="Changes" comment="Добавление новых задач">
-      <change afterPath="$PROJECT_DIR$/src/Main6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.A$B.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A.executor&quot;: &quot;Run&quot;,
     &quot;Application.BTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.JoinExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
@@ -62,6 +63,7 @@
     &quot;Application.Main3.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main4.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main6.executor&quot;: &quot;Run&quot;,
     &quot;Application.Ticket.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -80,36 +82,17 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main6">
-    <configuration name="BTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main5.BTree" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JoinExample" />
+  <component name="RunManager" selected="Application.Main80">
+    <configuration name="A$B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A$B" />
       <module name="Tasks" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main1.Main1" />
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A" />
       <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main80.Main80" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main80.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main6" />
-        <item itemvalue="Application.BTree" />
+        <item itemvalue="Application.Main80" />
         <item itemvalue="Application.Main100" />
-        <item itemvalue="Application.JoinExample" />
-        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.A$B" />
+        <item itemvalue="Application.Main6" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +165,13 @@
       <workItem from="1766763169217" duration="1445000" />
       <workItem from="1768317680725" duration="2460000" />
       <workItem from="1769180113445" duration="2129000" />
-      <workItem from="1770029272698" duration="367000" />
+      <workItem from="1770029272698" duration="563000" />
+      <workItem from="1771319737492" duration="16000" />
+      <workItem from="1772178634144" duration="23000" />
+      <workItem from="1772210651447" duration="19000" />
+      <workItem from="1776871953897" duration="15000" />
+      <workItem from="1776872028632" duration="298000" />
+      <workItem from="1777383355555" duration="2577000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление кода задачи взамен того кода который был изначально при создании проекта">
       <option name="closed" value="true" />
@@ -235,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768322506903</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Добавление новых задач">
+      <option name="closed" value="true" />
+      <created>1770029815399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770029815399</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
